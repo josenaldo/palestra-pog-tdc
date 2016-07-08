@@ -1,0 +1,36 @@
+.reveal i{
+    font-family: 'FontAwesome';
+    font-style: normal;
+}
+
+.reveal .mouse-controls  .mouse-status{
+    color: #eee;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.reveal .mouse-controls {
+    position: fixed;
+    z-index: 30;
+    left: 10px;
+    bottom: 20px;
+}
+
+
+.reveal blockquote {
+    width: 100%;
+    font-style: italic;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: none;
+    border-top: 2px solid  rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    text-align: right;
+}
+
+.reveal blockquote p{
+    margin: 5px 0;
+}
+
+.reveal blockquote cite {
+    display: block;
+    font-size: 18px;
+}
